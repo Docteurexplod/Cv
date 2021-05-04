@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Rubik';
+    src:url(../font/Rubik/Rubik-VariableFont_wght.ttf) format(Normal);
+    font-family: 'Poppins';
+        src:url(../font/Poppins/Poppins-Regular.ttf),
+            url(../font/Poppins/Poppins-ExtraLight.ttf),
+            url(../font/Poppins/Poppins-ExtraLightItalic.ttf),
+            url(../font/Poppins/Poppins-Italic.ttf),
+            url(../font/Poppins/Poppins-Light.ttf),
+            url(../font/Poppins/Poppins-LightItalic.ttf),
+            url(../font/Poppins/Poppins-MediumItalic.ttf),
+            url(../font/Poppins/Poppins-SemiBold.ttf),
+            url(../font/Poppins/Poppins-Medium.ttf),
+            url(../font/Poppins/Poppins-SemiBoldItalic.ttf),
+            url(../font/Poppins/Poppins-Thin.ttf),
+            url(../font/Poppins/Poppins-ThinItalic.ttf);
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: #0D1B2A;
+    clear: both;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+/* header*/
+#page
+{
+    display: flex;
+    flex-direction: column;
+}
+section article a img
+{
+    float: left;
+    margin-left: 65px;
+}
+#banniere
+{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 250px;
+    border-radius: 10px;
+    background: url(../img/coding.jpg) no-repeat;
+    background-size: cover;
+    position: relative fixed;
+    display: flex;
+    margin-left: 65px;
+    box-shadow: 0px 4px 4px black;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#nav
+{
+    position: absolute;
+    z-index: 3;
+    
+}
+#nav nav
+{
+    position: absolute;
+    border: 0;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(20, 20, 20, 0);
+}
+#bannieredesc
+{
+    position: absolute;
+    border: 0;
+    width: 93.4%;
+    height: 33px;
+    border-radius: 10px;
+    color: #E0E1DD;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-bottom: 40px;
+    background-color: rgba(20, 20, 20, 0.801);
+}
+#bouton
+{   
+    position: absolute;
+    right: 12px;
+    top: 7px;
+}
+#bouton img
+{
+    border: 0;
+    height:35px;
+    width:100px;
+    
+}
+/* Body*/
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+aside
+{
+    text-align: justify;
+}
+aside h2
+{
+    color: #778DA9;
+    font-size: large;
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+span
+{
+    font-weight:lighter;
+    font-style: oblique;
+}
+aside
+{
+    flex: 1.2;
+    width: 25%;
+    position: fixed;
+    right: 20px;
+    order: 2;
+    background-color: #1B263B;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: #E0E1DD;
+    font-size: 0.9em;
+    min-width: 250px;
+    z-index: 5;
+}
+article p a img
+{
+    width: 40%;
+    max-width: 280px;
+    float: right;
+    height: auto;
+    padding-left: 5px;
+}
+article
+{
+    flex: 3;
+    position: relative;
+    text-align: justify;
+    margin-left: 85px;
+    width: 50%;
+    color: #E0E1DD;
+    height: auto;
+
+}
+article p
+{
+    margin-left: 25px;
+}
+aside h2
+{
+    position: absolute;
+}
+#photocv
+{
+    border: 1px solid #181818;
+}
+h1
+{
+    color: #778DA9;
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Rubik';
+    font-weight: 900;
+}
+#cadre
+{
+    color: #415A77;
+}
+em
+{
+    background-color: #1B263B;
+    color: #E0E1DD;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Rubik';
+    font-weight: bolder;
+}
+h2 div
+{
+    color: #415A77;
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Rubik';
+    font-weight: bolder;
+}
+.ico img
+{
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+}
+#photocv
+{
+    float: right;
+    margin: 5px;
+    width: 40%;
+    height: auto;
+}
+/* Footer */
+footer
+{
+    font-family: 'Poppins';
+    font-style: normal ;
+    font-weight: 200;
+    margin-left: 65px;
+    text-align: center;
+    font-size: small ;
+    color: #E0E1DD;
+}
+/* Links*/
+.mail
+{
+    text-decoration: none;
+    color: #E0E1DD;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #778DA9;
+}
+.liens:hover
+{
+    text-decoration: none;
+    color: #778DA9;
+}
+#loading
+{
+    display: flex;
+    margin-left: 65px;
+    width: 60%;
+    height: 30%;
+}
+.w3-container
+{
+    position: relative;
+    font-family: Arial;
+    flex: 3;
+    width: 60%;
+    padding: 10px;
+    color: black;;
+}

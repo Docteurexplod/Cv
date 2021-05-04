@@ -1,0 +1,75 @@
+/* BURGER */
+#wrapbis
+{
+    margin: 0;
+}
+#wrapbis a
+{
+    text-decoration: none;
+}
+  
+#wrapbis
+{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    position: fixed;
+    right: -230px;
+    color: #E0E1DD;
+    transition: transform .4s cubic-bezier(.25, .1, .25, 1);
+    
+}
+  
+#wrapbis:not(:target) 
+{
+    transform: translate3d(-295px, 0, 0);
+    z-index: 4;
+}
+  
+  #wrapbis:target {
+    transform: translate3d(0, 0, 0);
+    z-index: 4;
+}
+
+#openbis, #closebis
+{
+    text-align: left;
+    display: block;
+    margin-left: 60;
+    z-index: 4;
+}
+  
+#wrapbis:target #openbis, #wrapbis:not(:target) #closebis
+{
+    display: none;
+    z-index: 4;
+}
+  
+  #wrapbis:target #openbis
+{
+    display: none;
+    z-index: 4;
+}
+.headerbis
+{
+    background: #1B263B;
+    width: 360px;
+    padding: 0 20px;
+    display:inline-block;
+    vertical-align:top;
+    z-index: 4;
+}
+  
+#cadrepresenation
+{
+    padding: 25px;
+    height: 50%;
+}
+  
+.main 
+{
+    padding: 25px;
+    flex: 1;
+    display:inline-block;
+    z-index: 4;
+}

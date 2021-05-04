@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Rubik';
+    src:url(../font/Rubik/Rubik-VariableFont_wght.ttf) format(Normal);
+    font-family: 'Poppins';
+        src:url(../font/Poppins/Poppins-Regular.ttf),
+            url(../font/Poppins/Poppins-ExtraLight.ttf),
+            url(../font/Poppins/Poppins-ExtraLightItalic.ttf),
+            url(../font/Poppins/Poppins-Italic.ttf),
+            url(../font/Poppins/Poppins-Light.ttf),
+            url(../font/Poppins/Poppins-LightItalic.ttf),
+            url(../font/Poppins/Poppins-MediumItalic.ttf),
+            url(../font/Poppins/Poppins-SemiBold.ttf),
+            url(../font/Poppins/Poppins-Medium.ttf),
+            url(../font/Poppins/Poppins-SemiBoldItalic.ttf),
+            url(../font/Poppins/Poppins-Thin.ttf),
+            url(../font/Poppins/Poppins-ThinItalic.ttf);
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: #0D1B2A;
+    clear: both;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+/* header*/
+#page
+{
+    display: flex;
+    flex-direction: column;
+}
+section article a img
+{
+    float: left;
+    margin-left: 65px;
+}
+#banniere
+{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 250px;
+    border-radius: 10px;
+    background: url(../img/coding.jpg) no-repeat;
+    background-size: cover;
+    position: relative fixed;
+    display: flex;
+    margin-left: 65px;
+    box-shadow: 0px 4px 4px black;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#nav
+{
+    position: absolute;
+    z-index: 3;
+    
+}
+#nav nav
+{
+    position: absolute;
+    border: 0;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(20, 20, 20, 0);
+}
+#bannieredesc
+{
+    position: absolute;
+    border: 0;
+    width: 93.4%;
+    height: 33px;
+    border-radius: 10px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-bottom: 40px;
+    background-color: rgba(20, 20, 20, 0.801);
+}
+#bouton
+{   
+    position: absolute;
+    right: 12px;
+    top: 7px;
+}
+#bouton img
+{
+    border: 0;
+    height:35px;
+    width:100px;
+    
+}
+
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+aside
+{
+    text-align: justify;
+}
+article
+{
+    flex: 3;
+    display: flex;
+    position: relative;
+    margin-left: 65px;
+    width: 60%;
+    padding: 10px;
+    color: #E0E1DD;
+    z-index: 1;
+}
+aside h2
+{
+    color: #415A77;
+    font-size: large;
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+#cadre
+{
+    color: #415A77;
+}
+div h2
+{
+    color: #415A77;
+    font-size: large;
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+article h2
+{
+    color: #415A77;
+    font-size: large;
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+article div
+{
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: blue;
+}
+span
+{
+    font-weight:lighter;
+    font-style: oblique;
+}
+aside
+{   
+    display: flex;
+    flex: 1.2;
+    width: 25%;
+    position: fixed;
+    right: 20px;
+    background-color: #1B263B;
+    box-shadow: 0px 2px 5px #0D1B2A;
+    border-radius: 5px;
+    padding: 10px;
+    color: #E0E1DD;
+    font-size: 0.9em;
+    min-width: 250px;
+    z-index: 5;
+}
+em
+{
+    background-color: #1B263B;
+    color: #E0E1DD;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Rubik';
+    font-weight: bolder;
+}
+aside h2
+{
+    position: absolute;
+}
+#photocv
+{
+    border: 1px solid #181818;
+}
+
+.ico img
+{
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+}
+#photocv
+{
+    float: right;
+    margin: 5px;
+    width: 40%;
+    height: auto;
+}
+
+footer
+{
+    font-family: 'Poppins';
+    font-style: normal ;
+    font-weight: 200;
+    margin-left: 65px;
+    text-align: center;
+    font-size: small ;
+    color: #E0E1DD;
+}
+#formation ol
+{
+    font-family: 'Poppins';
+}
+.mail
+{
+    text-decoration: none;
+    color: #E0E1DD;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #778DA9;
+}
+#loading
+{
+    display: flex;
+    margin-left: 65px;
+    width: 60%;
+    height: 30%;
+}
+.w3-container
+{
+    position: relative;
+    font-family: Arial;
+    flex: 3;
+    width: 60%;
+    padding: 10px;
+    color: #E0E1DD;;
+}
